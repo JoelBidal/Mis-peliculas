@@ -285,3 +285,143 @@ footer{
 
 .goHome {text-decoration: none;}
 
+
+
+/* Media queris */
+@media screen and (max-width: 320px){
+    .linkRecomendaciones, .recomendacionesGenerales{
+        display: none;
+    }
+
+    #cuerpoDePagina {padding-top: 20%;}
+
+    .informacionPelicula{padding-left: 0;}
+    
+    .informacionPelicula .nombreDirector, .duracion, .sinopsis {padding-bottom: 15px;}
+
+    .filasDePeliculas{margin-top: 20px;}
+
+    footer{height: auto;}
+    
+    .textoFooter {
+        width: 200px;
+        margin-top: 20px ;
+        font-size: 13px;
+    }
+    
+    .corazonFinal{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    }
+
+    .recomendar{
+        width: 100%;
+    }
+    .recomendar .tituloFooter{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .recomendaciones{
+        width: 200px;
+        margin: auto;
+    }
+
+    .developed{
+        margin: 50px 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .linkRecomendaciones, .recomendacionesGenerales{
+        display: none;
+    }
+
+    #cuerpoDePagina {padding-top: 20%;}
+
+    .informacionPelicula{padding-left: 0;}
+    
+    .informacionPelicula .nombreDirector, .duracion, .sinopsis {padding-bottom: 15px;}
+
+    .filasDePeliculas{margin-top: 20px;}
+
+    footer{height: auto;}
+    
+    .textoFooter {
+        width: 220px;
+        margin-top: 20px ;
+        font-size: 13px;
+    }
+    
+    .corazonFinal{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    }
+
+    .recomendar{
+        width: 100%;
+    }
+    .recomendar .tituloFooter{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .recomendaciones{
+        width: 220px;
+        margin: auto;
+    }
+
+    .developed{
+        margin: 50px 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .linkRecomendaciones, .recomendacionesGenerales{
+        display: none;
+    }
+
+    #cuerpoDePagina {padding-top: 20%;}
+
+    .informacionPelicula{padding-left: 0;}
+    
+    .informacionPelicula .nombreDirector, .duracion, .sinopsis {padding-bottom: 15px;}
+
+    .filasDePeliculas{margin-top: 20px;}
+
+    footer{height: auto;}
+    
+    .textoFooter {
+        width: 250px;
+        margin-top: 40px ;
+        font-size: 13px;
+    }
+    
+    .corazonFinal{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .recomendar{
+        width: 100%;
+    }
+    .recomendar .tituloFooter{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .recomendaciones{
+        width: 250px;
+        margin: auto;
+    }
+
+    .developed{
+        margin: 50px 0 30px 0;
+    }
+}
