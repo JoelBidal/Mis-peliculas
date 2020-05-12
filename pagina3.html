@@ -11,6 +11,11 @@
     <header>
         <div class="header">
             <a class="misPeliculas" href="index.html"><h1 class="tituloPagina">Mis películas</h1></a>
+            <label for="dark-mode"class="dark-mode-button">
+                <input id="dark-mode" type="checkbox"
+                onclick="document.documentElement.classList.toggle('dark-mode')">
+                <span class="emoji">&#128161</span>
+            </label>
             <a class="linkRecomendaciones" href="recomendaciones.html"><h2 class="recomendacionesGenerales">¡Sus recomendaciones!</h2></a>
 
         </div>
@@ -22,7 +27,7 @@
         <a class="linkMovie" target="_blank" href="https://www.cliver.to/pelicula/the-virgin-suicides/">
             <img class="poster" src="posters/the-virgin-suicides.jpg" alt="Poster de la pelicula The Virgin Suicides"></a>
             <div class="informacionPelicula">
-                <h2 class="tituloPelicula">The Virgin Suicides</h2>
+                <h2 class="tituloPelicula">The Virgin Suicides <span class="emoji">&#128148</span></h2>
                 <h2 class="nombreDirector" >Sofia Coppola</h2>
                 <h2 class= "genero">Drama | Romántico</h2>
                 <h2 class="duracion">1h 37m</h2>
@@ -33,7 +38,7 @@
     <div class="filasDePeliculas">
         <a class="linkMovie" target="_blank" href="https://poseidonhd.cc/movies/cruce-de-caminos-the-place-beyond-the-pines/"><img class="poster" src="posters/the-place-beyond-the-pines.jpg" alt="Poster de la pelicula The Place Beyond the Pines"></a>
             <div class="informacionPelicula">
-                <h2 class="tituloPelicula">The Place Beyond the Pines</h2>
+                <h2 class="tituloPelicula">The Place Beyond the Pines <span class="emoji">&#127914</span></h2>
                 <h2 class="nombreDirector" >Derek Cianfrance</h2>
                 <h2 class= "genero">Crimen</h2>
                 <h2 class="duracion">2h 20m</h2>
@@ -46,7 +51,7 @@
     <div class="filasDePeliculas">
         <a class="linkMovie" target="_blank" href="https://www.rinconcinefilo.com/gummo-1997-harmony-korine-onlineespanol/"><img class="poster" src="posters/gummo.jpg" alt="Poster de la pelicula Gummo"></a>
             <div class="informacionPelicula">
-                <h2 class="tituloPelicula">Gummo</h2>
+                <h2 class="tituloPelicula">Gummo <span class="emoji">&#128048</span></h2>
                 <h2 class="nombreDirector" >Harmony Korine</h2>
                 <h2 class= "genero">Drama | Cine independiente</h2>
                 <h2 class="duracion">1h 35m</h2>
@@ -57,7 +62,7 @@
     <div class="filasDePeliculas">
         <a class="linkMovie" target="_blank" href="https://www.rinconcinefilo.com/kids-larry-clark-subsespanolonline/"><img class="poster" src="posters/kids.jpg" alt="Poster de la pelicula Kids"></a>
             <div class="informacionPelicula">
-                <h2 class="tituloPelicula">Kids</h2>
+                <h2 class="tituloPelicula">Kids <span class="emoji">&#128761</span></h2>
                 <h2 class="nombreDirector" >Larry Clark</h2>
                 <h2 class= "genero">Drama | Cine independiente</h2>
                 <h2 class="duracion">1h 35m</h2>
@@ -70,7 +75,7 @@
     <div class="filasDePeliculas">
         <a class="linkMovie" target="_blank" href="https://www.rinconcinefilo.com/park-sofia-exarchousubsespanolonlinedescargar/"><img class="poster" src="posters/park.jpg" alt="Poster de la pelicula Park"></a>
             <div class="informacionPelicula">
-                <h2 class="tituloPelicula">Park</h2>
+                <h2 class="tituloPelicula">Park <span class="emoji">&#128695</span></h2>
                 <h2 class="nombreDirector" >Sofia Exarchou</h2>
                 <h2 class= "genero">Drama</h2>
                 <h2 class="duracion"> 1h 40m</h2>
@@ -81,7 +86,7 @@
     <div class="filasDePeliculas">
         <a class="linkMovie" target="_blank" href="https://www.rinconcinefilo.com/free-solo-subs-espanol-online-descargar/"><img class="poster" src="posters/free-solo.jpg" alt="Poster de la pelicula Free Solo"></a>
             <div class="informacionPelicula">
-                <h2 class="tituloPelicula">Free Solo</h2>
+                <h2 class="tituloPelicula">Free Solo <span class="emoji">&#129495</span></h2>
                 <h2 class="nombreDirector" >Jimmy Chin y Elizabeth Chai Vasarhelyi</h2>
                 <h2 class= "genero">Documental</h2>
                 <h2 class="duracion">1h 37m</h2>
@@ -97,7 +102,7 @@
         <li>
             <a class="numeroPagina paginaUno" href="index.html">1</a>
             <a class="numeroPagina paginaDos" href="pagina2.html">2</a>
-            <a class="numeroPagina paginaTres" href="pagina3.html">3</a>
+            <a class="numeroPagina paginaTres" href="pagina3.html"><u>3</u></a>
         </li>
     </ul>
 </div>
@@ -106,10 +111,11 @@
 </body>
 <footer>
     <p class="textoFooter">Hice esta selección de treinta peliculas que me marcaron al momento de verlas, y me encargue de buscar el link de cada una para que puedan verlas subtituladas y en excelente calidad. Además, <b>¡varias tienen la opción de descarga!</b></p>
-    <h2>💜</h2>
+    <h2 class="emoji">💜</h2>
     <div class="recomendar">
-        <h2 class="tituloFooter">¿Tenes algo que recomendar?</h2>
+        <h2 class="tituloFooter">¿Tenes algo para recomendar?</h2>
         <p class="recomendaciones">Podes <a target="_blank" href="https://www.instagram.com/joelbidal">enviarme un mensaje</a> y sumar tu película a la lista de recomendaciones diaras</p>
     </div>
+    <div class="developed"><a class="linkedin" href="https://www.linkedin.com/in/joel-bidal-55852711b/">developed by joelbidal</a></div>
 </footer>
 </html>
