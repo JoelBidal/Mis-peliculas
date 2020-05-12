@@ -1,0 +1,206 @@
+/* Body */
+*{
+    margin: 0px;
+}
+body{ background-color: #eee;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.021);
+}
+
+.header .tituloPagina{
+    font-size: 30px;
+    font-family: Sarabun;
+    color: #000;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.misPeliculas{
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 6%; 
+}
+
+.header .linkRecomendaciones{
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.header .recomendacionesGenerales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 395px;
+    border-left: 1px solid #eee;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Sarabun;
+    font-weight: 400;
+    color: #80808073;
+    line-height: 1;
+}
+
+.recomendacionesGenerales:hover{
+    background-color: #65e0da42;
+}
+
+
+
+
+/* Secciones de peliculas */
+
+#cuerpoDePagina{
+    padding-top: 7%;
+}
+
+#cuerpoGeneral{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.filasDePeliculas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* INFORMACIÓN DE LAS PELICULAS */
+
+.informacionPelicula{
+    /* outline: 1px solid; */
+    max-width: 300px;
+    height: auto;
+    padding-left: 20px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.informacionPelicula .nombreDirector, .duracion, .sinopsis{
+    padding-bottom: 30px;
+}
+.informacionPelicula .linkParaVer{
+    text-decoration: none;
+    color: rgba(27, 25, 25, 0.836);
+    font-size: 17px;
+    font-family: Sarabun;
+    font-weight: 400;
+}
+
+.tituloPelicula{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: Sarabun;
+    font-weight: bold;
+}
+
+.genero{
+    font-size: 17px;
+    font-family: Sarabun;
+    font-weight: 400;  
+    color: rgba(27, 25, 25, 0.836);
+ 
+}
+.nombreDirector, .duracion, .sinopsis{
+    font-size: 15px;
+    font-family: Sarabun;
+    font-weight: normal;
+    color: rgba(95, 95, 95, 0.589);
+}
+
+
+/* POSTERS */
+
+.filasDePeliculas .poster{
+    max-width: 250px;
+    height: auto;
+}
+
+.poster:hover{
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.219);
+}
+
+                                          /* PAGINAS */
+.paginas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.listaPaginas{
+    list-style: none;
+    padding: 0;
+}
+
+.numeroPagina{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Sarabun;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.801);
+
+}
+
+                                          /* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+}
+
+.textoFooter{
+    width: 350px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Sarabun;
+    letter-spacing: 1px;
+    color: #50505073;
+    line-height: 15px;
+}
+
+.recomendar{
+    display: block;
+    /* padding-right: 6%; */
+}
+
+.tituloFooter{
+    font-size: 20px;
+    font-family: Sarabun;
+    color: #000;
+    font-weight: 800;
+    line-height: 1;
+    padding-bottom: 10px;
+}
+
+.recomendaciones{
+    width: 350px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Sarabun;
+    line-height: 15px;
+    color: #50505073;
+}
+
+.recomendaciones a{
+    text-decoration: none;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.534);
+}
