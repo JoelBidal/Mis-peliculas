@@ -2,20 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Hice esta selección de treinta peliculas que me marcaron al momento de verlas, y me encargue de buscar el link de cada una para que puedan verlas subtituladas y en excelente calidad. Además, ¡varias tienen la opción de descarga!">
+    <meta name="keywords" content="Cine, Peliculas subtituladas, Cine Independiente">
+    <meta name="author" content="Joel Bidal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titulo de página</title>
+    <title>my watchlist</title>
+    <link rel="icon" type="image/png" href="imagenes/fav-icon.png">
     <link href="https://fonts.googleapis.com/css?family=Sarabun:100,200,200i,400,600,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type= "text/css" href="css/styles.css">
 </head>
 <body>
     <header>
         <div class="header">
-            <a class="misPeliculas" href="index.html"><h1 class="tituloPagina">Mis películas</h1></a>
+            <a class="tituloPagina" href="index.html">my watchlist</a>
+
+            <!-- Se aplica el dark-mode con una linea de Javascript -->
             <label for="dark-mode"class="dark-mode-button">
                 <input id="dark-mode" type="checkbox"
                 onclick="document.documentElement.classList.toggle('dark-mode')">
                 <span class="emoji">&#128161</span>
             </label>
+
             <a class="linkRecomendaciones" href="#"><h2 class="recomendacionesGenerales">¡Sus recomendaciones!</h2></a>
         </div>
     </header>
@@ -25,16 +32,17 @@
             <h2 class="textoLoSentimos">Aun no se hicieron recomendaciones</h2>
             <a class="goHome" href="index.html"><h2 class="volverInicio">Volver a inicio</h2></a>
         </div>
-
-    </section>
+    </section> <!-- Final seccion error 404 -->
 </body>
 <footer>
-    <p class="textoFooter">Hice esta selección de treinta peliculas que me marcaron al momento de verlas, y me encargue de buscar el link de cada una para que puedan verlas subtituladas y en excelente calidad. Además, <b>¡varias tienen la opción de descarga!</b></p>
+    <p class="textoFooter">Hice esta selección de treinta peliculas que me marcaron al momento de verlas, y me encargue de buscar el link de cada una para que puedan verlas subtituladas y en excelente calidad. Además, <span>¡varias tienen la opción de descarga!</span></p>
     <h2 class="emoji">💜</h2>
     <div class="recomendar">
         <h2 class="tituloFooter">¿Tenes algo para recomendar?</h2>
-        <p class="recomendaciones">Podes <a target="_blank" href="https://www.instagram.com/joelbidal">enviarme un mensaje</a> y sumar tu película a la lista de recomendaciones diaras</p>
+        <p class="recomendaciones">Podes <a class="contactar" target="_blank" href="https://www.instagram.com/joelbidal">enviarme un mensaje</a> y sumar tu película a la lista de recomendaciones diaras. Además podes compartir la página en <a class="contactar" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//joelbidal.github.io/Mis-peliculas/" target="_blank">facebook</a> o <a class="contactar" href="https://twitter.com/intent/tweet?text=Les%20comparto%20esta%20selecci%C3%B3n%20de%20pel%C3%ADculas%20que%20hizo%20%40joelbidal5%20%23mywatchlist%20%F0%9F%99%8C%F0%9F%9A%80%20%0A%0Ajoelbidal.github.io/Mis-peliculas/" target="_blank">twitter</a> para que pueda llegar a más personas.</p>
     </div>
-    <div class="developed"><a class="linkedin" href="https://www.linkedin.com/in/joel-bidal-55852711b/">developed by joelbidal</a></div>
+    <div class="developed">
+        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/joel-bidal-55852711b/">developed by joelbidal</a>
+    </div>
 </footer>
 </html>

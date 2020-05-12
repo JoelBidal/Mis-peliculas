@@ -1,10 +1,6 @@
 /* Body */
-*{
-    margin: 0px;
-}
-body{ background-color: #eee;
-    min-height: 100vh;
-}
+*{margin: 0px;}
+body{ background-color: #eee; min-height: 100vh;}
 
 /* Header */
 .header{
@@ -21,45 +17,33 @@ body{ background-color: #eee;
 }
 
 .header .tituloPagina{
-    font-size: 30px;
-    font-family: Sarabun;
-    color: #000;
-    font-weight: 800;
-    line-height: 1;
-}
-
-.misPeliculas{
     width: auto;
     padding: 10px;
     text-decoration: none;
+    font-size: 25px;
+    font-family: Sarabun;
+    color: rgb(2, 2, 2);
+    font-weight: 800;
+    line-height: 1;
     margin-left: 5%; 
-    margin-right: 8%;
+    margin-right: 10%;
+}
+
+.tituloPagina:hover{
+    opacity: 80%;
 }
 
 /* DARK MODE */
-
 .dark-mode-button{
-padding: 20px;
-cursor: pointer;
+    padding: 20px;
+    cursor: pointer;
 }
 
-#dark-mode{
-    opacity: 0;
-}
-
-html.dark-mode{
-    filter: invert(100%);
-}
-
-html.dark-mode img{
-    filter: invert(100%);
-}
-
-html.dark-mode .emoji{
-    filter: invert(100%);
-}
-
-.linkRecomendaciones{text-decoration:none;}
+#dark-mode  {opacity: 0;}
+html.dark-mode  {filter: invert(100%);}
+html.dark-mode img  {filter: invert(100%);}
+html.dark-mode .emoji   {filter: invert(100%);}
+.linkRecomendaciones    {text-decoration:none;}
 
 .header .Recomendaciones{
     text-decoration: none;
@@ -74,7 +58,7 @@ html.dark-mode .emoji{
     width: 395px;
     border-left: 1px solid #eee;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
     font-family: Sarabun;
     font-weight: 400;
     color: #575757c7;
@@ -82,22 +66,16 @@ html.dark-mode .emoji{
 }
 
 .recomendacionesGenerales:hover{
-    background-color: #65e0da42;
+    background-color: rgb(2, 2, 2);
+    color: white;
 }
-
-
-
 
 /* Secciones de peliculas */
-
-#cuerpoDePagina{
-    padding-top: 7%;
-}
+#cuerpoDePagina {padding-top: 7%;}
 
 #cuerpoGeneral{
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -110,16 +88,14 @@ html.dark-mode .emoji{
 /* INFORMACIÓN DE LAS PELICULAS */
 
 .informacionPelicula{
-    /* outline: 1px solid; */
     max-width: 300px;
     height: auto;
     padding-left: 20px;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Sarabun;
 }
 
-.informacionPelicula .nombreDirector, .duracion, .sinopsis{
-    padding-bottom: 30px;
-}
+.informacionPelicula .nombreDirector, .duracion, .sinopsis{padding-bottom: 30px;}
+
 .informacionPelicula .linkParaVer{
     text-decoration: none;
     color: rgba(27, 25, 25, 0.836);
@@ -128,9 +104,7 @@ html.dark-mode .emoji{
     font-weight: 400;
 }
 
-.linkParaVer:hover{
-    text-decoration-line: underline;
-}
+.linkParaVer:hover  {text-decoration-line: underline;}
 
 .tituloPelicula{
     text-transform: uppercase;
@@ -150,11 +124,11 @@ html.dark-mode .emoji{
     font-size: 15px;
     font-family: Sarabun;
     font-weight: normal;
-    color: rgba(95, 95, 95, 0.589);
+    color: rgba(51, 51, 51, 0.603);
 }
 
 
-                                          /* POSTERS */
+/* Porters */
 
 .filasDePeliculas .poster{
     max-width: 250px;
@@ -163,9 +137,11 @@ html.dark-mode .emoji{
 
 .poster:hover{
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.685);
+    opacity: 65%;
+
 }
 
-                                          /* PAGINAS */
+/* Paginas */
 .paginas{
     display: flex;
     justify-content: space-evenly;
@@ -186,12 +162,14 @@ html.dark-mode .emoji{
     color: rgba(0, 0, 0, 0.801);
 }
 
-.paginaDos:hover{text-decoration-line: underline;}
-.paginaTres:hover{text-decoration-line: underline;}
+.paginaUno:hover    {text-decoration-line: underline;}
+.paginaDos:hover    {text-decoration-line: underline;}
+.paginaTres:hover   {text-decoration-line: underline;}
 
-                                          /* FOOTER */
+/* Footer */
 
-footer{display: flex;
+footer{
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     align-self: flex-end;
@@ -206,15 +184,16 @@ footer{display: flex;
     font-size: 15px;
     font-weight: 400;
     font-family: Sarabun;
-    letter-spacing: 1px;
-    color: #50505073;
+    color: rgba(51, 51, 51, 0.603);
     line-height: 15px;
 }
 
-.recomendar{
-    display: block;
-    /* padding-right: 6%; */
+.textoFooter span{
+    color: rgba(0, 0, 0, 0.534);
+    font-weight: 800;
 }
+
+.recomendar {display: block;}
 
 .tituloFooter{
     font-size: 20px;
@@ -231,14 +210,16 @@ footer{display: flex;
     font-weight: 400;
     font-family: Sarabun;
     line-height: 15px;
-    color: #50505073;
+    color: rgba(51, 51, 51, 0.603);
 }
 
-.recomendaciones a{
+.recomendaciones .contactar{
     text-decoration: none;
     font-weight: 800;
     color: rgba(0, 0, 0, 0.534);
 }
+
+.contactar:hover    {color: rgba(0, 0, 0, 0.808);}
 
 .developed{
     display: flex;
@@ -251,6 +232,7 @@ footer{display: flex;
     color: rgba(0, 0, 0, 0.596);
     font-weight: 200;
 }
+
 .linkedin{
     text-decoration: none;
     font-size: 16px;
@@ -262,11 +244,10 @@ footer{display: flex;
 .linkedin:hover{
     color: black;
 }
-                                          /* PAGINA DE RECOMENDACIONES */
 
-#error404{
-    padding-top: 6%;
-}
+/* Página de recomendaciones */
+#error404   {padding-top: 6%;}
+
 .recomendarSeccion{
     height: 242px;
     width: 100%;
@@ -297,10 +278,7 @@ footer{display: flex;
     color: rgb(128, 128, 128);
 }
 
-.volverInicio:hover{
-    text-decoration-line: underline;
-}
+.volverInicio:hover {text-decoration-line: underline;}
 
-.goHome{
-    text-decoration: none;
-}
+.goHome {text-decoration: none;}
+
