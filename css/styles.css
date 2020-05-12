@@ -125,6 +125,7 @@ html.dark-mode .emoji   {filter: invert(100%);}
     font-family: Sarabun;
     font-weight: normal;
     color: rgba(51, 51, 51, 0.603);
+    text-align: justify;
 }
 
 
@@ -186,6 +187,7 @@ footer{
     font-family: Sarabun;
     color: rgba(51, 51, 51, 0.603);
     line-height: 15px;
+    text-align: justify;
 }
 
 .textoFooter span{
@@ -211,6 +213,7 @@ footer{
     font-family: Sarabun;
     line-height: 15px;
     color: rgba(51, 51, 51, 0.603);
+    text-align: justify;
 }
 
 .recomendaciones .contactar{
